@@ -1,0 +1,24 @@
+<nav>
+    <ul>
+        <li><a href="{{ path('home') }}">{% trans %}Home{% endtrans %}</a></li>
+        <li><a href="{{ path('aboutus') }}">{% trans %}About Us{% endtrans %}</a></li>
+        <li><a href="{{ path('list') }}">{% trans %}Idea{% endtrans %}</a></li>
+        {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+            <li><a href="{{ path('logout') }}">{% trans %}Logout{% endtrans %}</a></li>
+            <li><a href="{{ path('app_category_index') }}">{% trans %}CRUD Category{% endtrans %}</a></li>
+        {% else %}
+            <li><a href="{{ path('login') }}">{% trans %}Login{% endtrans %}</a></li>
+            <li><a href="{{ path('user_register') }}">{% trans %}Register{% endtrans %}</a></li>
+        {% endif %}
+
+        {% for locale in locales %}
+            {% if locale != app.request.locale %}
+                <li class="nav*item active">
+                    <a class="nav-link" href ="{{path('change_locale', {'locale': locale}) }}">
+                        <img src="{{ asset('img/'~locale~'.png') }}" alt="{{ locale }}" height="40px">
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

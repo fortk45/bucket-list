@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Idea{% endtrans %}{% endblock %}
+
+{% block body %}
+    <h1>{% trans %}Idea{% endtrans %}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ idea.id }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}Title{% endtrans %}</th>
+                <td>{{ idea.title }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}Descriptif{% endtrans %}</th>
+                <td>{{ idea.descriptif }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}Author{% endtrans %}</th>
+                <td>{{ idea.author }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}IsPublished{% endtrans %}</th>
+                <td>{{ idea.isPublished ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}DateCreated{% endtrans %}</th>
+                <td>{{ idea.dateCreated ? idea.dateCreated|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_idea_controller2_index') }}">{% trans %}back to list{% endtrans %}</a>
+
+    <a href="{{ path('app_idea_controller2_edit', {'id': idea.id}) }}">{% trans %}edit{% endtrans %}</a>
+
+    {{ include('idea_controller2/_delete_form.html.twig') }}
+{% endblock %}

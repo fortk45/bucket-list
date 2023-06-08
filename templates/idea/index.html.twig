@@ -1,0 +1,17 @@
+{% extends "layout/layout.html.twig" %}
+
+{% block main %}
+<h1>{% trans %}Idea index{% endtrans %}</h1><br/>
+{% for idea in ideas %}
+    <div>
+        <lu>
+            <li><a href="{{ path('showId', {'id': idea.id}) }}">{{ idea.title }} ({{ idea.category.getName() }})</a></li>
+        </lu>
+    </div>
+{% endfor %}
+{% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+    <br/><a href="{{ path('addIdea') }}">{% trans %}Create a new idea{% endtrans %}</a>
+{% endif %}
+{% endblock %}
+
+{% block title %}Bucket-List | Home{% endblock %}

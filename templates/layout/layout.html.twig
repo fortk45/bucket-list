@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Bucket-List{% endblock %}</title>
+    <link rel="icon" type="image/png" href="{{ asset("img/favicon.png") }}">
+    <link rel="stylesheet" href="{{ asset("css/app.css") }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="site-title-img" src="{{ asset("img/logo.png") }}" alt="icon du site">
+            <h1 class="site-title" id="title-home">Bucket-List</h1>
+            {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+                <h2>{% trans %}Hello{% endtrans %} {{ app.user.username }}</h2>
+            {% endif %}
+            {% include "nav/nav.html.twig" %}
+        </header>
+        <main>
+        {% for label, messages in app.flashes %}
+            {% for message in messages %}
+                <div class="flash-{{ label }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+            {% block main %}{% endblock %}
+        </main>
+        <footer>
+            <p id="copyright">© {{ "now"|date("Y") }} Bucket-List</p>
+            {% trans %}By{% endtrans %} Fabián Alexis (https://github.com/fabianalexisinostroza/Antu) [<a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3AAntu_color-fill.svg">viaWikimedia Commons</a>
+        </footer>
+    </div>
+</body>
+</html>

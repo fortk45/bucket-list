@@ -1,0 +1,40 @@
+{% extends "layout/layout.html.twig" %}
+
+{% block main %}
+<h1>{% trans %}Idea creation{% endtrans %}</h1><br/>
+
+<div>
+    {{ form_start(ideaForm) }}
+
+    <div class="title">
+        {{ form_label(ideaForm.title) }}
+        {{ form_widget(ideaForm.title) }}
+        {{ form_errors(ideaForm.title) }}
+    </div>
+
+    <div class="descriptif">
+        {{ form_label(ideaForm.descriptif) }}
+        {{ form_widget(ideaForm.descriptif) }}
+        {{ form_errors(ideaForm.descriptif) }}
+    </div>
+
+    <div class="author">
+        {{ form_label(ideaForm.author) }}
+        {{ form_widget(ideaForm.author, {attr: { value : app.user.username } }) }}
+        {{ form_errors(ideaForm.author) }}
+    </div>
+
+    <div class="category">
+        {{ form_label(ideaForm.category) }}
+        {{ form_widget(ideaForm.category) }}
+        {{ form_errors(ideaForm.category) }}
+    </div>
+
+    <button type="submit">{% trans %}Create !{% endtrans %}</button>
+
+    {{ form_end(ideaForm) }}
+</div>
+
+{% endblock %}
+
+{% block title %}Bucket-List | {% trans %}Home{% endtrans %}{% endblock %}

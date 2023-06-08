@@ -1,0 +1,12 @@
+{% extends 'home.html.twig' %}
+
+{% block main %}
+    {{ form_start(registerForm) }}
+    {{ form_widget(registerForm) }}
+    <button type="submit">{% trans %}Register{% endtrans %}</button>
+    {{ form_end(registerForm) }}
+{% endblock %}
+
+{% block title %}
+    {% trans %}Registration{% endtrans %}
+{% endblock %}

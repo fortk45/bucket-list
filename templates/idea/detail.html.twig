@@ -1,0 +1,29 @@
+{% extends "layout/layout.html.twig" %}
+
+{% block main %}
+<h1>{% trans %}Idea details{% endtrans %}</h1><br/>
+
+<div>
+    <lu>
+        <li>{% trans %}Title{% endtrans %} : {{ idea.title }}</li>
+        <li>{% trans %}Description{% endtrans %} : {{ idea.descriptif }}</li>
+        <li>{% trans %}Author{% endtrans %} : {{ idea.author }}</li>
+        <li>{% trans %}Category{% endtrans %} : {{ idea.category.getName() }}</li>
+        <li>{% trans %}Published{% endtrans %} : {% if idea.isPublished == 1 %}
+        Oui
+        {% else %}
+        Non
+        {% endif %}
+        </li>
+        <li>{% trans %}Creation date{% endtrans %} : {{ idea.dateCreated.format('d/m/Y') }}</li>
+    </lu>
+</div><br/><br/>
+    {% if app.user.username is defined %}
+        {% if idea.author == app.user.username %}
+            <a href="{{ path('modifyIdea', {'id': idea.id}) }}" style="margin-right: 20px;">{% trans %}Edit{% endtrans %}</a>
+            <a href="{{ path('delIdea', {'id': idea.id}) }}">{% trans %}Delete{% endtrans %}</a>
+        {% endif %}
+    {% endif %}
+{% endblock %}
+
+{% block title %}Bucket-List | {% trans %}Home{% endtrans %}{% endblock %}

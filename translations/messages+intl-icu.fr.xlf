@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="IDGrP0." resname="The idea has been created !">
+        <source>The idea has been created !</source>
+        <target>L'idée a bien été créée !</target>
+      </trans-unit>
+      <trans-unit id="f9nnTgA" resname="This is an example of a description and location.">
+        <source>This is an example of a description and location.</source>
+        <target>Cela est un exemple d'une description et de l'emplacement.</target>
+      </trans-unit>
+      <trans-unit id="Enjv9HM" resname="Welcome to Bucket-List!">
+        <source>Welcome to Bucket-List!</source>
+        <target>Bienvenue sur Bucket-List!</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="XYxxq8U" resname="About Us">
+        <source>About Us</source>
+        <target>A propos</target>
+      </trans-unit>
+      <trans-unit id="sgK8uQy" resname="Idea">
+        <source>Idea</source>
+        <target>Idée</target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="qUfFvR2" resname="CRUD Category">
+        <source>CRUD Category</source>
+        <target>CRUD Catégorie</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>Inscription</target>
+      </trans-unit>
+      <trans-unit id="BLdf3JS" resname="Lorem ipsum ! Nove sed non nova !">
+        <source>Lorem ipsum ! Nove sed non nova !</source>
+        <target>Lorem ipsum ! Nove sed non nova !</target>
+      </trans-unit>
+      <trans-unit id="zI.Z63_" resname="Welcome!">
+        <source>Welcome!</source>
+        <target>Bienvenue !</target>
+      </trans-unit>
+      <trans-unit id="DZO3ehf" resname="Edit Category">
+        <source>Edit Category</source>
+        <target>Modifier la Category</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="ExBeWxe" resname="Category Index">
+        <source>Category Index</source>
+        <target>Liste des catégories</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="Kw3N1AA" resname="actions">
+        <source>actions</source>
+        <target>actions</target>
+      </trans-unit>
+      <trans-unit id="HGMzUJ3" resname="show">
+        <source>show</source>
+        <target>voir</target>
+      </trans-unit>
+      <trans-unit id="JiEhxTc" resname="edit">
+        <source>edit</source>
+        <target>modifier</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>aucun enregistrement trouvé</target>
+      </trans-unit>
+      <trans-unit id="nz33U6Q" resname="Create new">
+        <source>Create new</source>
+        <target>Créer nouveau</target>
+      </trans-unit>
+      <trans-unit id="Ogh45Pp" resname="New Category">
+        <source>New Category</source>
+        <target>Nouvelle Catégorie</target>
+      </trans-unit>
+      <trans-unit id="W6joEsF" resname="Create new Category">
+        <source>Create new Category</source>
+        <target>Créer une nouvelle catégorie</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="PKkA1.G" resname="Idea creation">
+        <source>Idea creation</source>
+        <target>Création d'idée</target>
+      </trans-unit>
+      <trans-unit id="PPAjqnv" resname="Idea details">
+        <source>Idea details</source>
+        <target>Détails de l'idée</target>
+      </trans-unit>
+      <trans-unit id="fozSBW2" resname="Title">
+        <source>Title</source>
+        <target>Titre</target>
+      </trans-unit>
+      <trans-unit id="Um4Ah8w" resname="Description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Catégorie</target>
+      </trans-unit>
+      <trans-unit id="LvQuwh2" resname="Published">
+        <source>Published</source>
+        <target>Publié</target>
+      </trans-unit>
+      <trans-unit id="bk0LHGc" resname="Creation date">
+        <source>Creation date</source>
+        <target>Date de création</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="mNxI5Yq" resname="Idea index">
+        <source>Idea index</source>
+        <target>Liste d'idées</target>
+      </trans-unit>
+      <trans-unit id="SmDky46" resname="Create a new idea">
+        <source>Create a new idea</source>
+        <target>Créer une nouvelle idée</target>
+      </trans-unit>
+      <trans-unit id="OzXNtw." resname="Edit Idea">
+        <source>Edit Idea</source>
+        <target>Modifier l'idée</target>
+      </trans-unit>
+      <trans-unit id="nP36Dhu" resname="Descriptif">
+        <source>Descriptif</source>
+        <target>Descriptif</target>
+      </trans-unit>
+      <trans-unit id="2VCCou5" resname="Author">
+        <source>Author</source>
+        <target>Auteur</target>
+      </trans-unit>
+      <trans-unit id="gUwxMCM" resname="IsPublished">
+        <source>IsPublished</source>
+        <target>Est publié</target>
+      </trans-unit>
+      <trans-unit id="v.BtMaI" resname="DateCreated">
+        <source>DateCreated</source>
+        <target>Date de création</target>
+      </trans-unit>
+      <trans-unit id="SjjS9.S" resname="New Idea">
+        <source>New Idea</source>
+        <target>__New Idea</target>
+      </trans-unit>
+      <trans-unit id="S_F7BXk" resname="Create new Idea">
+        <source>Create new Idea</source>
+        <target>Créer une nouvelle idée</target>
+      </trans-unit>
+      <trans-unit id="ElRmuCH" resname="By">
+        <source>By</source>
+        <target>Par</target>
+      </trans-unit>
+      <trans-unit id="xToXHNd" resname="Create !">
+        <source>Create !</source>
+        <target>Créer !</target>
+      </trans-unit>
+      <trans-unit id="GF_NsyJ" resname="Hello">
+        <source>Hello</source>
+        <target>Bonjour</target>
+      </trans-unit>
+      <trans-unit id="qouKZ75" resname="The idea has been modified !">
+        <source>The idea has been modified !</source>
+        <target>L'idée a bien été modifiée !</target>
+      </trans-unit>
+      <trans-unit id="YbF0955" resname="The idea has been deleted !">
+        <source>The idea has been deleted !</source>
+        <target>L'idée a bien été supprimée !</target>
+      </trans-unit>
+      <trans-unit id="47ienTP" resname="Username">
+        <source>Username</source>
+        <target>Nom d'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="x5Pg2aH" resname="Registration">
+        <source>Registration</source>
+        <target>Inscription</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

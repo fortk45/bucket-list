@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="jp" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="IDGrP0." resname="The idea has been created !">
+        <source>The idea has been created !</source>
+        <target>アイデアが生まれました！</target>
+      </trans-unit>
+      <trans-unit id="qouKZ75" resname="The idea has been modified !">
+        <source>The idea has been modified !</source>
+        <target>考え方が修正された !</target>
+      </trans-unit>
+      <trans-unit id="YbF0955" resname="The idea has been deleted !">
+        <source>The idea has been deleted !</source>
+        <target>アイデアは削除されました !</target>
+      </trans-unit>
+      <trans-unit id="BLdf3JS" resname="Lorem ipsum ! Nove sed non nova !">
+        <source>Lorem ipsum ! Nove sed non nova !</source>
+        <target>ロレム・イプサム！新品だけど新品じゃない！</target>
+      </trans-unit>
+      <trans-unit id="zI.Z63_" resname="Welcome!">
+        <source>Welcome!</source>
+        <target>ようこそ</target>
+      </trans-unit>
+      <trans-unit id="DZO3ehf" resname="Edit Category">
+        <source>Edit Category</source>
+        <target>カテゴリを編集</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>リストに戻る</target>
+      </trans-unit>
+      <trans-unit id="ExBeWxe" resname="Category Index">
+        <source>Category Index</source>
+        <target>カテゴリ インデックス</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>名前</target>
+      </trans-unit>
+      <trans-unit id="Kw3N1AA" resname="actions">
+        <source>actions</source>
+        <target>行動</target>
+      </trans-unit>
+      <trans-unit id="HGMzUJ3" resname="show">
+        <source>show</source>
+        <target>見せる</target>
+      </trans-unit>
+      <trans-unit id="JiEhxTc" resname="edit">
+        <source>edit</source>
+        <target>編集</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>レコードが見つかりません</target>
+      </trans-unit>
+      <trans-unit id="nz33U6Q" resname="Create new">
+        <source>Create new</source>
+        <target>新しく作る</target>
+      </trans-unit>
+      <trans-unit id="Ogh45Pp" resname="New Category">
+        <source>New Category</source>
+        <target>新たなカテゴリー</target>
+      </trans-unit>
+      <trans-unit id="W6joEsF" resname="Create new Category">
+        <source>Create new Category</source>
+        <target>新しいカテゴリを作成</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>消去</target>
+      </trans-unit>
+      <trans-unit id="Enjv9HM" resname="Welcome to Bucket-List!">
+        <source>Welcome to Bucket-List!</source>
+        <target>ようこそ Bucket-List!</target>
+      </trans-unit>
+      <trans-unit id="f9nnTgA" resname="This is an example of a description and location.">
+        <source>This is an example of a description and location.</source>
+        <target>これは、説明と場所の例です。</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>家庭</target>
+      </trans-unit>
+      <trans-unit id="PKkA1.G" resname="Idea creation">
+        <source>Idea creation</source>
+        <target>アイデアの創造</target>
+      </trans-unit>
+      <trans-unit id="xToXHNd" resname="Create !">
+        <source>Create !</source>
+        <target>作成 ！</target>
+      </trans-unit>
+      <trans-unit id="PPAjqnv" resname="Idea details">
+        <source>Idea details</source>
+        <target>アイデア詳細</target>
+      </trans-unit>
+      <trans-unit id="fozSBW2" resname="Title">
+        <source>Title</source>
+        <target>題名</target>
+      </trans-unit>
+      <trans-unit id="Um4Ah8w" resname="Description">
+        <source>Description</source>
+        <target>説明</target>
+      </trans-unit>
+      <trans-unit id="2VCCou5" resname="Author">
+        <source>Author</source>
+        <target>著者</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>カテゴリー</target>
+      </trans-unit>
+      <trans-unit id="LvQuwh2" resname="Published">
+        <source>Published</source>
+        <target>公開済み</target>
+      </trans-unit>
+      <trans-unit id="bk0LHGc" resname="Creation date">
+        <source>Creation date</source>
+        <target>作成日</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>編集</target>
+      </trans-unit>
+      <trans-unit id="mNxI5Yq" resname="Idea index">
+        <source>Idea index</source>
+        <target>アイデア索引</target>
+      </trans-unit>
+      <trans-unit id="SmDky46" resname="Create a new idea">
+        <source>Create a new idea</source>
+        <target>新しいアイデアを作成する</target>
+      </trans-unit>
+      <trans-unit id="OzXNtw." resname="Edit Idea">
+        <source>Edit Idea</source>
+        <target>アイデアを編集</target>
+      </trans-unit>
+      <trans-unit id="nP36Dhu" resname="Descriptif">
+        <source>Descriptif</source>
+        <target>説明</target>
+      </trans-unit>
+      <trans-unit id="gUwxMCM" resname="IsPublished">
+        <source>IsPublished</source>
+        <target>発行済み</target>
+      </trans-unit>
+      <trans-unit id="v.BtMaI" resname="DateCreated">
+        <source>DateCreated</source>
+        <target>作成日</target>
+      </trans-unit>
+      <trans-unit id="SjjS9.S" resname="New Idea">
+        <source>New Idea</source>
+        <target>新しい考え</target>
+      </trans-unit>
+      <trans-unit id="S_F7BXk" resname="Create new Idea">
+        <source>Create new Idea</source>
+        <target>新しいアイデアを作成する</target>
+      </trans-unit>
+      <trans-unit id="sgK8uQy" resname="Idea">
+        <source>Idea</source>
+        <target>考え</target>
+      </trans-unit>
+      <trans-unit id="GF_NsyJ" resname="Hello">
+        <source>Hello</source>
+        <target>こんにちは</target>
+      </trans-unit>
+      <trans-unit id="ElRmuCH" resname="By">
+        <source>By</source>
+        <target>に</target>
+      </trans-unit>
+      <trans-unit id="XYxxq8U" resname="About Us">
+        <source>About Us</source>
+        <target>私たちに関しては</target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>ログアウト</target>
+      </trans-unit>
+      <trans-unit id="qUfFvR2" resname="CRUD Category">
+        <source>CRUD Category</source>
+        <target>CRUD カテゴリ</target>
+      </trans-unit>
+      <trans-unit id="nWMiwfT" resname="Login">
+        <source>Login</source>
+        <target>ログイン</target>
+      </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>登録</target>
+      </trans-unit>
+      <trans-unit id="47ienTP" resname="Username">
+        <source>Username</source>
+        <target>ユーザー名</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>パスワード</target>
+      </trans-unit>
+      <trans-unit id="x5Pg2aH" resname="Registration">
+        <source>Registration</source>
+        <target>登録</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

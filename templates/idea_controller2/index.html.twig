@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Idea index{% endtrans %}{% endblock %}
+
+{% block body %}
+    <h1>{% trans %}Idea index{% endtrans %}</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id{</th>
+                <th>{% trans %}Title{% endtrans %}</th>
+                <th>{% trans %}Descriptif{% endtrans %}</th>
+                <th>{% trans %}Author{% endtrans %}</th>
+                <th>{% trans %}IsPublished{% endtrans %}</th>
+                <th>{% trans %}DateCreated{% endtrans %}</th>
+                <th>{% trans %}actions{% endtrans %}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for idea in ideas %}
+            <tr>
+                <td>{{ idea.id }}</td>
+                <td>{{ idea.title }}</td>
+                <td>{{ idea.descriptif }}</td>
+                <td>{{ idea.author }}</td>
+                <td>{{ idea.isPublished ? 'Yes' : 'No' }}</td>
+                <td>{{ idea.dateCreated ? idea.dateCreated|date('Y-m-d H:i:s') : '' }}</td>
+                <td>
+                    <a href="{{ path('app_idea_controller2_show', {'id': idea.id}) }}">show</a>
+                    <a href="{{ path('app_idea_controller2_edit', {'id': idea.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="7">{% trans %}no records found{% endtrans %}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_idea_controller2_new') }}">{% trans %}Create a new idea{% endtrans %}</a>
+{% endblock %}
